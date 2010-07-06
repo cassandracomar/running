@@ -1,5 +1,0 @@
-(ns running.utils
-  (:require [clojure.main :as main]))
-
-(defn eval-str [s]
-  (main/main "-e" s))
